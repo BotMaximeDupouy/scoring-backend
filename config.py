@@ -1,7 +1,7 @@
 MODEL_PATH = "./models/"
 MODEL_TO_USE = "random_forest_final.pkl"
 #MODEL_TO_USE = "random_orest_no_finetuning.pkl"
-DATA_PATH = './data/df_complete.csv'
+DATA_PATH = './data/df_complete.csv.gz'
 PORT = '8000'
 HOST = 'http://127.0.0.1:'
 EMPTY_RESPONSE = {
